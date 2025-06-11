@@ -22,7 +22,7 @@ function App() {
   };
 
   const deleteTodo = async (id) => {
-    await axios.delete(`https://backend-x1jq.onrender.com/${id}`);
+    await axios.delete(`https://backend-x1jq.onrender.com/todos/${id}`);
     fetchTodos();
   };
 
